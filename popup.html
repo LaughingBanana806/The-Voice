@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Text Reader</title>
+   </head>
+   <body>
+      <div>
+         <textarea id="text" rows="10" cols="50"></textarea>
+      </div>
+      <div>
+         <input type="text" id="voice" placeholder="Enter voice description">
+      </div>
+      <div>
+         <button id="read">Read Text</button>
+      </div>
+      <h1>Text-to-Speech Extension</h1>
+      <textarea id="text" rows="4" cols="50"></textarea><br>
+      <button onclick="askForApiKey()">Enter API Key</button>
+      <button onclick="readText()">Read Text</button>
+      
+      <script src="popup.js"></script>
+   </body>
+</html>

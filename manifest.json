@@ -1,0 +1,6 @@
+{
+   "name": "Text Reader",
+   "version": "1.0",
+   "description": "A chrome extension that reads text according to the user's voice description",
+   "permissions": ["textToSpeech"]
+}
